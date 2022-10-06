@@ -1,0 +1,243 @@
+
+
+oru out put edukkanumda 
+*** Print()  Command
+
+commonts '#'
+
+pythonla space vara koodathu
+
+power 3**3 = 27
+3//2 = 1 equal (%)s
+
+
+
+
+01 VARIABLS
+- first letter albatic ah ikkanum and spacial charactor '_'mattumtha use panna mudium
+- capital , simple sariya ikkanum
+- variable name velangura madari ikkanum
+
+01. watch = 500 
+	print(watch)
+	print(watch + 20) ennavendalum pannalam - , + , * , / , 0.2 
+
+02. costomer name
+	name = "Sahran"
+
+03. single line 
+	watch, watch2 = 702, 200
+	print(watch) = 701
+	print(watch2) = 200
+
+04. dual commend
+
+	watch = red = 705
+
+		print(watch) = 705
+		print(name) = 705
+
+05. string and intiger convert athavathu add (+) akathu
+06. more then one line {***fwjhefgkwehfgweufgwgfwyuefwgfy***} 6*varum
+07. maximum "" usepannurathu '' use pannuthavida nallathu
+08. Array 0,1,2,3,4,5
+	
+		world = hellow
+
+		{H=0} , {E=1} , {L=2} , {L=3} , {W=4}
+
+		print(world[0]) H mattum print akum
+
+09.slicing/range
+
+ 		world = hellow
+
+		print(world[0:2]) he mattum print akum last point print akathu
+
+09.slicing/range nagative
+
+ 		world = hellow
+
+		print(world[-0:-2]) hell mattum print akum lastla inthu print akum
+
+11. length
+ 		world = hellow 
+		print(len(world)) = 5
+
+12.strip
+
+ 		world ="  hellow   2 "
+		print(world.strip()) = 5
+
+13.upper
+
+		world ="hellow"
+		print(world.upper()) = HELLOW
+
+14.lower
+
+		world ="HELLOW"
+		print(world.lower()) = hellow
+
+15.sentence replace
+
+		world ="hellow"
+		print(world.replace("w", "oi") = hellooi
+
+16. slipt
+
+		world ="wow"
+		print(world.replace("o") =  ["w", "w"]
+
+17. sentence find (true, fulse)
+
+
+		world ="hellow"
+		print("hel" in world") = True
+
+18. Containation
+
+		a1 = "Hi_"
+		a2 = "Mohammed"
+		print(a1 + a2) = Hi_Mohammed
+
+19.Boolien 
+
+		print(2 > 10) = false
+		print(10 == 10) = True
+
+20.
+
+		number1 = 10
+		number2 = number1 + 20 = 30
+
+
+		number1 = 10
+		number1 = number1 + 10
+		number2 = number1 + 20 = 40
+
+21.casting
+
+		// a = 10
+		   b = 10.10
+
+		   print(a) = 10
+		   print(b) = 10.10 //
+
+
+
+		a = float(10)
+		b = int(10.10)
+		c = str(120)
+
+		print(a) = 10.0
+		print(b) = 10
+		print(c) = 120
+		print(type(c)) = <class 'string'>
+		print(type(b)) = <class 'int'>
+
+22.list
+
+		fruits = ['apple' , 'orange' , 'herry']
+		print(fruits) = ['apple' , 'orange' , 'herry']
+
+		fruits = ['apple' , 'orange' , 'herry']
+
+		print(fruits[2]) = orange
+		print(fruits[-1]) = herry
+		print(fruits[2:3]) = ['orange' , 'herry']
+
+
+		 /// fruits = ['apple' , 'orange' , 'herry']
+		     fruits[1] = "banana"
+		     print(fruits) = ['apple' , 'banana' , 'herry'] ///
+
+
+		 /// fruits = ['apple' , 'orange' , 'herry']
+		     fruits.append = "cool"
+		     print(fruits) = ['apple' , 'orange' , 'herry', 'cool'] ///
+
+23.short
+
+		num = [1, 22, 2, 0,]
+		num = sort()
+		print(num) = ['22' , '2', '1', '0']
+reverce
+
+		num = [1, 22, 2, 0,]
+		num = sort(reverse=true)
+		print(num) = ['0' , '1', '2', '22']
+
+24. add
+
+		num = [1, 22, 2, 0,]
+		fruits = ['apple' , 'orange' , 'herry']
+		
+		add = num + fruits
+		print(add) = ['22' , '2', '1', '0', 'apple' , 'orange' , 'herry']
+
+25.tupels
+
+		=== tuples value varthu modify panna mudiyathu
+		=== concotination panna mudiyathu
+		=== sort panna mudiyathu
+
+		 /// fruits = ('apple' , 'orange' , 'herry')
+		     ** fruits[1] = "cool"** - error varum
+		     print(fruits) = ['apple' , 'orange' , 'herry'] ///	
+
+	
+
+26.set
+
+		random ah athuva maru
+
+		fruits = {'apple' , 'orange' , 'herry'}
+		fruits.add('banana')
+
+		print(fruits) = ['apple' ,'banana', 'orange' , 'herry']
+		print(fruits) = ['apple' , 'apple' ,'banana','orange']
+		print(fruits) = ['herry' , 'orange' , 'apple','banana']	
+
+27.disconary
+
+		my_data = {
+		
+		"name" : "mohammed"
+		"age" :  "24"
+		}
+
+		
+		my_data["age"] = "25"
+
+		print(my_data)
+		print(my_data.get("age")) = 25
+
+28.IF and elseif
+
+
+		age = 10
+
+		if age > 18 :
+			print("True") 
+
+		else: 
+			print("Fulse")
+
+
+		if age > 18 :
+			print("True")
+ 
+		elseif: age == 18
+			print("equal")
+
+		else: 
+			print("Fulse")
+
+
+
+
+
+
+https://youtu.be/mhdExzt7AnU
+https://youtu.be/mhdExzt7AnU?t=6565 - last awtch
